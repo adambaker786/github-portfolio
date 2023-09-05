@@ -399,6 +399,12 @@ span {
     .services {
         padding-bottom: 7rem;
     }
+    .portfolio {
+        padding-bottom: 7rem;
+    }
+    .contact {
+        min-height: auto;
+    }
     .footer {
         padding: 2rem 3%;
     }
@@ -456,5 +462,17 @@ span {
     }
     .services h2 {
         margin-bottom: 3rem;
+    }
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
     }
 }
